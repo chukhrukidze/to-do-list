@@ -1,0 +1,65 @@
+body {
+  background-image: url(/body.jpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.list-div {
+  font-size: 20px;
+  text-shadow: 20px 30px 35px rgb(119, 0, 238);
+}
+
+.click-div,
+.list-div {
+  display: flex;
+  justify-content: center;
+  min-height: 20vh;
+  align-items: center;
+}
+.todo-input,
+.todo-btn,
+.towriteinput,
+.edit-btn,
+.save-btn {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  box-shadow: 30px 25px 20px rgb(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid rgb(0, 0, 0);
+  transition: 0.5s;
+  color: black;
+  background-image: url(/body.jpg.jpg);
+  background-size: cover;
+}
+
+.todo-btn:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.todo-input:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.save-btn:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.towriteinput:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.edit-btn:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.div {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.edit-save-btn {
+  margin: 20px;
+}
